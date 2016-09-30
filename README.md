@@ -30,8 +30,8 @@ Code mostly was spiked, also due to above errors and inability to export data fr
 ##### further development
 * Blockchain data updates every 15 minutes and Geckoboard updates dataset every 10 minutes. I plan to use Redis for local caching of Blockchain responses, which will minimize db calls usage. And will save resources
 * Also I plan to use Redis for background processes scheduling
-* To have a friendly UI and better UX, app will be deployed to web (Heroku), allowing users crate datasets online.
-* I plan to test implemented code and. Tho I strongly believe it should be done in a first place.
+* To have a friendly UI and better UX, app will be deployed to web (Heroku), allowing users create datasets online.
+* I plan to test implemented code. Tho I strongly believe it should be done in a first place.
 * Code imo needs refactoring, I'd probably extract to separate class all methods relating to data formatting.
 
 ...hope to hear from you soon guys.
