@@ -1,0 +1,6 @@
+# Sequel Database Configuration
+
+development: "postgres://julia@localhost/gecko_app_development"
+test: "postgres://julia@localhost/gecko_app_test"
+production: "postgres://julia@localhost/gecko_app_production"
+
