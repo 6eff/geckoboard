@@ -23,6 +23,7 @@ group :test, :development do
   gem 'rack'
   gem 'sinatra'
   gem 'capybara'
+  gem 'database_cleaner'
 end
 
 gem "httparty"

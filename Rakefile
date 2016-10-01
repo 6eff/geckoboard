@@ -29,4 +29,5 @@ namespace :db do
   task :connect => :environment do
     require "./config/initializers/database"
   end
+
 end

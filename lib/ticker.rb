@@ -16,11 +16,11 @@ class Ticker
     url = "https://blockchain.info/ticker"
     response = Net::HTTP.get_response(URI.parse(url))
     data = JSON.parse(response.body)
+    data.each{|k,v| v.delete("symbol")}
     data.keys.each do |key|
-      data[key] = Hash[data[key].map { |k, v| [k, (v * 100).round] if v.class != String }]
+      data[key] = Hash[data[key].map { |k, v| [k, (v * 100).round]}]
     end
     data.to_s.gsub('15m', 'p15m')
   end
-
 
 end

@@ -3,7 +3,6 @@ require 'sequel'
 
 class Board
 
-  attr_reader :board_datasets
   DB = Sequel.connect("postgres://julia@localhost/gecko_app_development")
 
   def initialize
