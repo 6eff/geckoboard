@@ -33,7 +33,8 @@ Code mostly was spiked, also due to above errors and inability to export data fr
 * To have a friendly UI and better UX, app will be deployed to web (Heroku), allowing users create datasets online.
 * I plan to test implemented code. Tho I strongly believe it should be done in a first place.
 * Code imo needs refactoring, I'd probably extract to separate class all methods relating to data formatting. And would store JSON directly to Postgres, had some issues with bjson data type and hstore. Would probably autogenerate and populate tables and generate datasets based on tables structure. Push mechanizm needs to be changed for appending new data, overwriting is resource consuming.
+* Would add error reporting on downloading and pushing data.
 
 ...hope to hear from you soon guys.
 
-...hope to hear from you soon guys.
+
